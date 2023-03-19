@@ -35,7 +35,7 @@
 <style>
 	.home {
 		@apply w-screen h-screen bg-[#19a2ae] flex justify-center items-center bg-no-repeat;
-		background-image: url(./images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+		background-image: url('/images/bg-pattern-top.svg'), url("/images/bg-pattern-bottom.svg");
    		background-position: right 45vw bottom 45vh, 45vw 45vh;
 	}
 	.container {
