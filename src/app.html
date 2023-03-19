@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="Profile card component" />
+		<meta name="keywords" content="Profile card component" />
+		<meta name="author" content="Minnaingkoko" />
+		<title>Profile card component</title>
+		%sveltekit.head%
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			@font-face {
+				font-family: 'KumbhSans';
+				src: url('/fonts/KumbhSans-Bold.ttf') format('ttf'), url('/fonts/KumbhSans-Regular.ttf') format('ttf');
+				font-weight: normal;
+				font-style: normal;
+			}
+			body {
+				font-family: 'KumbhSans', sans-serif;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
