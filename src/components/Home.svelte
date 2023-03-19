@@ -9,7 +9,7 @@
 				<img class="profile_img" src="/images/image-victor.jpg" alt="">
 			</div>
 			<div class="wrap">
-				<h1 class="name">Victor Crest 26</h1>
+				<h1 class="name">Victor Crest <span class="highlight">26</span></h1>
 				<div class="location">London</div>
 				<div class="line"></div>
 				<div class="stat">
@@ -68,8 +68,11 @@
 	.col {
 		@apply flex flex-col items-center;
 	}
-	.location, .text {
+	.location, .text, .highlight {
 		@apply text-[16px] text-[#6a6f81];
+	}
+	.highlight {
+		@apply inline-block;
 	}
 	.line {
 		@apply w-[100%] h-[1px] mt-[24px] mb-[24px] bg-[#969696];
